@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e8e2e2; /* Fallback color for the entire body */
+  color: white;
+}
+.aboutdonation {
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+.aboutdonation h1 {
+  margin: 0;
+}
+.contact-form {
+  /* height: 80vh; */
+  width: fit-content;
+  padding: 20px;
+  background-color: rgb(205, 74, 74);
+  border-radius: 10px;
+  color: rgb(12, 11, 11)
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.form-row {
+  flex: 0 0 100%;
+  margin-bottom: 30px;
+}
+
+.form-row label,
+.form-row input,
+.form-row textarea {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Added margin-right for spacing between input fields on larger screens */
+.form-row input:not(:last-child),
+.form-row textarea:not(:last-child) {
+  margin-right: 10px;
+}
+
+button {
+  background-color: #1c898b;
+  color: white;
+  padding: 20px 30px; /*Adjust paddin to increase the button size */
+  border: none;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c0479b;
+}
+
+@media (min-width: 768px) {
+  .contact-form {
+    max-width: 60%;
+    margin: 50px auto;
+  }
+   
+  .form-row {
+    flex: 0 0 48%;
+    margin-right: 2%;
+  }
+}
+

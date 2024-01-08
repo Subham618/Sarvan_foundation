@@ -1,0 +1,24 @@
+/* src/styles/ImageContent.css */
+.image-content-container {
+    margin-top: 2px;
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .content-wrapper {
+    text-align: center;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .image-content-container {
+      height: 80vh; /* Adjust as needed for smaller screens */
+    }
+  }
+  

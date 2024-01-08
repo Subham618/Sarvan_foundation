@@ -1,0 +1,18 @@
+/* src/styles/UpHeader.css */
+.up-header {
+    background-color: black;
+    color: white;
+    margin-top: 35px;
+    padding: 10px;
+    /* margin-bottom: 0px; */
+    text-align: center;
+  }
+  
+  @media (max-width: 770px) {
+    .up-header{
+      margin-top: 90px;
+    }
+  
+    
+  }
+  

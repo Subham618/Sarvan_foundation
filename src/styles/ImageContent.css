@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container_val {
+  display: flex;
+  background-color: black;
+  color: white;
+  /* height: 80vh; */
+  /* height: 600px; */
+}
+
+.image {
+  /* margin-top: 40px; */
+  /* margin-left: 5px; */
+  flex: 10%;
+  /* margin: 10px; */
+  /* margin-bottom: 10px; */
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  /* height: 550px; */
+}
+
+.text {
+  flex: 2;
+  /* margin: 10px; */
+  margin-left: 40px;
+  margin-right: 40px;
+  margin: 0 0;
+  text-align: center;
+}
+
+.part1 {
+  /* margin-top: 20px; */
+  margin-bottom: 10px;
+  /* font-size: 80px; */
+  font-weight: bold; /* Optional: Make it bold */
+  font-size: 6vw;
+}
+
+.part2 {
+  /* font-size: 40px;  */
+  font-size: 3vw;
+}
+
+.part3 {
+  margin-left: 20px;
+  margin-right: 20px;
+  /* font-size: 20px;  */
+  font-size: 2vw;
+}
+
+@media (max-width: 1000px) {
+  .image{
+    flex: 30%;
+  }
+  .image img{
+      height: auto;
+  }
+  .container_val{
+      height: auto;
+      /* flex-direction: column; */
+  }
+  .part1 {
+    font-size: 6vw; /* Adjust the size for part 1 when screen size is below 1000px */
+  }
+
+  .part2 {
+    font-size: 3vw; /* Adjust the size for part 2 when screen size is below 1000px */
+  }
+
+  .part3 {
+    font-size: 2vw; /* Adjust the size for part 3 when screen size is below 1000px */
+  }
+}
+@media (max-width:700px) {
+  .container_val{
+    flex-direction: column;
+  }
+  .text{
+    margin-bottom: 10px;
+  }
+}

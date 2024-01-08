@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* background-color: black; */
+  }
+  .container_value{
+    /* position: relative; */
+      background-image: url('/src/images/value_img.jpg'); 
+    background-size: contain;
+    background-position: center;
+    padding-top: 1px;
+    
+  }
+  /* .container_value::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.4); 
+    z-index: -1; 
+} */
+  .content_val {
+    /* background-image: url('value_img.jpg'); 
+    background-size: contain;
+    background-position: center; */
+    /* height: 60vh; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    color: rgb(21, 21, 21); /* Text color on top of the background image */
+    /* margin: 20px 0; */
+    /* margin-bottom: 10px; */
+    padding-bottom: 60px;
+  
+  } 
+
+  .title_value {
+    font: bold;
+    margin-top: 100px;
+    font-size: 40px;
+    color: black;
+  }
+  
+  .custom_paragraph {
+    /* margin-top: 100px; */
+    /* font: bold; */
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 16px;
+    /* Add any additional styles for the custom_paragraph class */
+  }
+  
+  @media (max-width: 650px) {
+    .title_value{
+      margin-top: 20px;
+      margin-bottom: 10px;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    .container_value{
+      background-color: rgba(255, 255, 255, 0.0);
+    }
+    
+    .custom_paragraph{
+      margin: 2px 2px;
+    }
+  }
+  @media (max-width: 350px) {
+    .custom_paragraph{
+      margin: 0px 0px;
+      font-size: 13px;
+    }
+  
+    
+  }
+  
+  
